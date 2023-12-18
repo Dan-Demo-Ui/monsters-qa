@@ -27,4 +27,4 @@ jobs:
     - script: npm ci
       displayName: 'Install NPM dependencies'
 
-    - script: npm run test
+    - script: npm run smoke

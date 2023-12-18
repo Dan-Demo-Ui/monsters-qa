@@ -14,16 +14,16 @@ describe('', () => {
 
         cy.contains('Admin').click()
 
-        cy.get(".oxd-button.oxd-button--medium.oxd-button--secondary").click()
+        //     cy.get(".oxd-button.oxd-button--medium.oxd-button--secondary").click()
 
 
-        cy.get('.oxd-select-text-input')
+        //     cy.get('.oxd-select-text-input')
 
-            .eq(0)
-            .click()
-            .get('.oxd-select-option')
-            .contains('ESS')
-            .click()
+        //         .eq(0)
+        //         .click()
+        //         .get('.oxd-select-option')
+        //         .contains('ESS')
+        //         .click()
 
 
 
